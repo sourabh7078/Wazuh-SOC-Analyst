@@ -34,13 +34,15 @@ The source archive also contains a CIS Windows 11 Enterprise assessment export (
 ## Repository layout
 - `docs/PROJECT-PLAN.md` — template for documenting each practical day.
 - `docs/PUBLIC-RELEASE-CHECKLIST.md` — security review before public sharing.
-- `evidence/SCREENSHOT-MANIFEST.csv` — screenshot inventory and SHA-256 hashes.
+- `evidence/DATE-WISE-INDEX.md` — date-wise screenshot counts for all 22 capture dates.
+- `evidence/SCREENSHOT-MANIFEST.csv` — screenshot inventory and SHA-256 hashes (included in the prepared ZIP).
 - `evidence/assessment/checks.csv` — assessment export from the supplied archive.
-- `evidence/screenshots/` — original screenshots, organized by capture date (to be added after binary evidence upload).
+- `evidence/screenshots/YYYY-MM-DD/` — original screenshots grouped by capture date in the prepared ZIP; binary images still need to be uploaded to this repository.
 
 ## Evidence inventory
 - Screenshots in source archive: **242**
-- Capture dates: **22**
+- Capture dates: **22** (2026-09-23 through 2026-11-09)
+- Date-wise index: [`evidence/DATE-WISE-INDEX.md`](evidence/DATE-WISE-INDEX.md)
 - Date range: **2026-09-23 to 2026-11-09**
 - Assessment CSV records: **482** (123 passed / 351 failed)
 
